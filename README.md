@@ -1,6 +1,6 @@
 ### JAVA FIRST CODE
 
-1. Print "Hello World" in Java.
+1. Print `"Hello World"` in Java.
 
 > Source Code
 
