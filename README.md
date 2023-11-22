@@ -36,6 +36,7 @@ int main(){
 > Expected Output:
 
     Sum of 5 and 7 is: 12
+<<<<<<< HEAD
 
 3. Write a program to multiply two numbers (10&8) and display its product.
 
@@ -55,3 +56,5 @@ int main(){
 > Expected Output
 
     Multiplication of 10 and 8 is: 80
+=======
+>>>>>>> e0fd658087abf4556ec1916f2ea9c73f1b658f4b
