@@ -2,7 +2,7 @@
 
 1. Write a program to display “hello world” in C.
 
-> Source Code
+> Source Code:
 
 ```C
 #include<stdio.h>
@@ -20,7 +20,7 @@ int main(){
 
 2. Write a program to add two numbers (5&7) and display its sum.
 
-> Source Code
+> Source Code:
 
 ```C
 #include<stdio.h>
@@ -36,3 +36,22 @@ int main(){
 > Expected Output:
 
     Sum of 5 and 7 is: 12
+
+3. Write a program to multiply two numbers (10&8) and display its product.
+
+> Source Code:
+
+```C
+#include<stdio.h>
+
+int main(){
+    int num1=10, num2=8,mul;
+    mul=num1*num2;
+    printf("Multiplication of %d and %d is: %d",num1,num2,mul);
+    return 0;
+}
+```
+
+> Expected Output
+
+    Multiplication of 10 and 8 is: 80
