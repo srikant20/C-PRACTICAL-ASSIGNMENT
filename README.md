@@ -55,3 +55,42 @@ int main(){
 > Expected Output
 
     Multiplication of 10 and 8 is: 80
+
+3. Write a program to multiply two numbers (10&8) and display its product.
+
+> Source Code
+
+```C
+#include<stdio.h>
+
+int main(){
+    int num1=10, num2=8,mul;
+    mul=num1*num2;
+    printf("Multiplication of %d and %d is: %d",num1,num2,mul);
+    return 0;
+}
+```
+
+> Expected Output:
+
+    Multiplication of 10 and 8 is: 80
+
+4. Write a program to calculate area of a circle having its radius (r=5).
+
+> Source Code:
+
+```C
+#include<stdio.h>
+#define PI 3.14
+
+int main(){
+    int r=5;
+    int area= PI*r*r;
+    printf("Area of Circle if Radius is %d: %d",r,area);
+    return 0;
+}
+```
+
+> Expected Output:
+
+    Area of Circle if Radius is 5: 78
